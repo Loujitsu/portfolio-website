@@ -23,7 +23,7 @@
       </div>
   </header>
 
-    <nav class="contact_info">
+ <nav class="contact_info">
       <p>
         Luis Ordonez<br>
         1234 N Loujitsu Dr<br>
@@ -33,25 +33,30 @@
         <a href="mailto:luis.ordonezaz@gmail.com">Contact Me</a><br>
         <br>
       </p>
-    </nav>
+  </nav>
 
-<div class="form_contact">
+  <div class="container">
+    <h3>Contact Form</h3>
+    <form action="#" name="contact_form">
+      <label for="first_name">First Name:</label>
+      <input name="first_name" type="text" placeholder="John" required>
+      <br>
+      <label for="last_name">Last Name:</label>
+      <input name="last_name" type="text" placeholder="Smith" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="jsmith@email.com" required>
+      <br>
+      <label for="message">Message</label>
+      <textarea name="message" cols="30" rows="10"></textarea>
+      <br>
+      <div class="subit_button">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
 
-    <form class="form-example" action="" method="post">
-
-    <label for="email">Email:*</label>
-      <input type="email" name="email" id="email" value="email" required>
-
-    <label for="tel" class="standar-label">Telephone:*</label>
-      <input id="tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" value="telephone"required>
-
-    <label for="message" class="standard-label">Message (240 max characters)*</label>
-      <textarea id="message" name="message" maxlength="240" required></textarea>
-
-      <input type="submit" name="" value="Enter">
-</div>
-
-<footer class="page_footer">
+  <footer class="page_footer">
   <p>Find me on</p>
   <div class="social-media">
     <a href="https://github.com/Loujitsu">
@@ -61,8 +66,8 @@
   <a href="https://www.linkedin.com/in/luis-ordonez-az/">
   <img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
   </div>
-</footer>
+  </footer>
 
-<script src="js/tota11y.min.js"></script>
-  </body>
+  <script src="js/tota11y.min.js"></script>
+</body>
   </html>
