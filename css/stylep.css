@@ -42,6 +42,11 @@ body {
   a {
     color: var(--primary-color);
   }
+  
+  .github_link {
+    padding-left: 10px;
+  }
+
   button {
     border: none;
     font-family: inherit;
