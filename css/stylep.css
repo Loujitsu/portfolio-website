@@ -374,9 +374,8 @@ body {
 
   /* Contact Form */
 .contact_info {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-  grid-column-start: 5;
-  grid-column-end: 2; 
+  padding-left: 30px;
+}
+.container_form {
+  padding-left: 30px;
 }
