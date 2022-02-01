@@ -239,7 +239,14 @@ body {
   .grid_item {
     background-color: lightgreY;
   }
-  
+
+  .work_title {
+    padding-left: 10px;
+  }
+  .work_content {
+    padding-left: 10px;
+  }
+
   .grid_item:last-child {
     -ms-grid-column: 3;
     grid-column: 3 / 3;
