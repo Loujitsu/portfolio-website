@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="shortcut icon" href="img/html5.ico" type="image/ico">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/stylep.css">
+</head>
+
+<body>
+  <header class="page-header">
+      <!-- Add Logo Here -->
+      <div class="container-nav pullrightleft page-header__item">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="work.html">WORK</a>
+        <a href="contact.html" id="navigation-active">CONTACT</a>
+      </div>
+  </header>
+
+    <nav class="contact_info">
+      <p>
+        Luis Ordonez<br>
+        1234 N Loujitsu Dr<br>
+        Glendale, AZ 85307<br>
+        <br>
+        <a href="tel:6232627260">Telephone:(623) 200-0609</a><br>
+        <a href="mailto:luis.ordonezaz@gmail.com">Contact Me</a><br>
+        <br>
+      </p>
+    </nav>
+
+<div class="form_contact">
+
+    <form class="form-example" action="" method="post">
+
+    <label for="email">Email:*</label>
+      <input type="email" name="email" id="email" value="email" required>
+
+    <label for="tel" class="standar-label">Telephone:*</label>
+      <input id="tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" value="telephone"required>
+
+    <label for="message" class="standard-label">Message (240 max characters)*</label>
+      <textarea id="message" name="message" maxlength="240" required></textarea>
+
+      <input type="submit" name="" value="Enter">
+</div>
+
+<footer class="page_footer">
+  <p>Find me on</p>
+  <div class="social-media">
+    <a href="https://github.com/Loujitsu">
+  <img src="img/github_icon.svg" alt="Github"></a>
+  <a href="https://twitter.com/Lu_Jitsu1">
+  <img src="img/twitter_icon.svg" alt="Twitter"></a>
+  <a href="https://www.linkedin.com/in/luis-ordonez-az/">
+  <img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+  </body>
+  </html>
