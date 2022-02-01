@@ -64,7 +64,7 @@ body {
   
   .profile_portrait{
     float: left;
-    width: 250px;
+    width: 350px;
     margin-right: 40px;
     border-radius: 50%;
   }
@@ -370,3 +370,13 @@ body {
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
   }
+
+
+  /* Contact Form */
+.contact_info {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-start: 5;
+  grid-column-end: 2; 
+}
