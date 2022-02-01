@@ -240,6 +240,10 @@ body {
     background-color: lightgreY;
   }
 
+  .h1_work {
+    padding-left: 20px;
+  }
+
   .work_title {
     padding-left: 10px;
   }
